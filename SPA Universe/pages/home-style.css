@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home {
+  background-image: url(../assets/mountain-universe.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  width: 100%;
+  height: 100vh;
+  padding: 72px 44px;
+}
+
+#home nav a img {
+  height: 42px;
+  width: 50px;
+}
+
+#home nav a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+#home nav {
+  display: flex;
+  gap: 43px;
+
+  align-items: center;
+}
+
+.main {
+  color: aliceblue;
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.main h1 {
+  margin-bottom: 24px;
+  font-size: 48px;
+}
+
+.main button {
+  display: flex;
+  margin: 0 auto;
+  height: 48px;
+  width: 195px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: solid 1px white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main button a {
+  font-family: "Robot", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.main button a:hover {
+  font-size: 15px;
+}
